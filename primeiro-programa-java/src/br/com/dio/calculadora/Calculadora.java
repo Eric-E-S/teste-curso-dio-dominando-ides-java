@@ -36,9 +36,15 @@ public class Calculadora {
 	}
 
 	public static double divisao(int a, int b) {
-		//https://stackoverflow.com/questions/2808535/round-a-double-to-2-decimal-places
+		// https://stackoverflow.com/questions/2808535/round-a-double-to-2-decimal-places
+		/*
+		 * https://www.guj.com.br/t/return-double-apenas-com-o-valor-inteiro/76298
+		 * 
+		 * https://stackoverflow.com/questions/2808535/round-a-double-to-2-decimal-
+		 * places
+		 */
 		double dResultado;
-		dResultado= (double) a / b;
+		dResultado = (double) a / b;
 		return dResultado;
 		// return (double) a / b;
 	}
